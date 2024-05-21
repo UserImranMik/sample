@@ -1,0 +1,8 @@
+version: '3'
+services:
+  springapp:
+    image: infocareerdemo/springsample
+    ports:
+      - "8038:8038"
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
